@@ -1,0 +1,136 @@
+com.example.android.vault.VaultProvider content://com.example.android.vault.provider [RW] android.permission.MANAGE_DOCUMENTS
+android.jobscheduler.cts.shareduid.jobperm.JobPermProvider content://android.jobscheduler.cts.shareduid.jobperm.provider <pathPattern:.*> [grant-uri-permission]
+com.android.documentsui.BrokenProvider content://com.android.documentsui.broken [grant-uri-permission]
+com.example.android.vault.VaultProvider content://com.example.android.vault.provider [grant-uri-permission]
+com.android.documentsui.StressProvider content://com.android.documentsui.stressprovider [RW] android.permission.MANAGE_DOCUMENTS
+com.android.cellbroadcastreceiver.CellBroadcastSearchIndexableProvider content://com.android.cellbroadcastreceiver [grant-uri-permission]
+com.android.settings.search.SettingsSearchIndexablesProvider content://com.android.settings [RW] android.permission.READ_SEARCH_INDEXABLES
+com.android.cts.permissiondeclareappPermissionContentProviderPathRestricting content://ctspermissionwithsignaturepathrestricting <pathPrefix:/foo>  [W] com.android.cts.permissionWithSignature
+com.android.providers.tvTvProvider content://android.media.tv [W] com.android.providers.tv.permission.WRITE_EPG_DATA
+com.android.providers.contactsContactsProvider2 content://com.android.contacts <pathPrefix:/search_suggest_shortcut>  [R] android.permission.GLOBAL_SEARCH
+com.android.settings.search.SettingsSearchIndexablesProvider content://com.android.settings [grant-uri-permission]
+com.android.providers.downloads.DownloadProvider content://downloads <pathPrefix:/all_downloads>  [RW] android.permission.ACCESS_ALL_DOWNLOADS
+com.android.traceur.SearchProvider content://com.android.traceur [RW] android.permission.READ_SEARCH_INDEXABLES
+com.android.documentsui.DemoProvider content://com.android.documentsui.demoprovider [RW] android.permission.MANAGE_DOCUMENTS
+com.android.providers.media.MediaDocumentsProvider content://com.android.providers.media.documents [RW] android.permission.MANAGE_DOCUMENTS
+com.android.car.settings.search.CarSettingsSearchIndexablesProvider content://com.android.car.settings [RW] android.permission.READ_SEARCH_INDEXABLES
+com.android.documentsui.StubProvider content://com.android.documentsui.stubprovider [grant-uri-permission]
+com.android.providers.downloads.DownloadProvider content://downloads <pathPrefix:/my_downloads/> [grant-uri-permission]
+com.android.service.ims.presence.EABProvider content://com.android.rcs.eab [RW] com.android.rcs.eab.permission.READ_WRITE_EAB
+com.android.providers.telephonyCarrierProvider content://carrier_information [W] android.permission.MODIFY_PHONE_STATE
+com.example.android.storageprovider.MyCloudProvider content://com.example.android.storageprovider.documents [RW] android.permission.MANAGE_DOCUMENTS
+com.android.settings.emergency.EmergencyActionContentProvider content://com.android.settings.emergency [RW] android.permission.CALL_PRIVILEGED
+com.android.providers.contactsContactsProvider2 content://contacts <pathPrefix:/search_suggest_query>  [R] android.permission.GLOBAL_SEARCH
+com.android.documentsui.DemoProvider content://com.android.documentsui.demoprovider [grant-uri-permission]
+com.android.traceur.StorageProvider content://com.android.traceur.documents [grant-uri-permission]
+com.android.providers.telephonySmsChangesProvider content://sms-changes [R] android.permission.READ_SMS
+com.android.permissioncontroller.permission.service.PermissionSearchIndexablesProvider content://com.android.permissioncontroller [grant-uri-permission]
+com.example.android.notepadNotePadProvider content://com.google.provider.NotePad <pathPattern:.*> [grant-uri-permission]
+com.android.car.settings.search.CarSettingsSearchIndexablesProvider content://com.android.car.settings [grant-uri-permission]
+com.android.cts.intent.sender.BasicContentProvider content://com.android.cts.intent.sender.provider [grant-uri-permission]
+com.android.browser.provider.BrowserProvider2 content://browser [W] com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+com.android.shell.BugreportStorageProvider content://com.android.shell.documents [grant-uri-permission]
+com.android.providers.media.cloudproviders.CloudProviderNoIntentFilter content://com.android.providers.media.photopicker.tests.cloud_no_intent_filter [RW] com.android.providers.media.permission.MANAGE_CLOUD_MEDIA_PROVIDERS
+com.android.providers.contactsShadowCallLogProvider content://call_log_shadow [W] android.permission.INTERACT_ACROSS_USERS
+android.photopicker.cts.cloudproviders.CloudProviderSecondary content://android.photopicker.cts.cloudproviders.cloud_secondary [RW] com.android.providers.media.permission.MANAGE_CLOUD_MEDIA_PROVIDERS
+com.android.documentsui.StressProvider content://com.android.documentsui.stressprovider [grant-uri-permission]
+com.android.documentsui.archives.ArchivesProvider content://com.android.documentsui.archives [RW] android.permission.MANAGE_DOCUMENTS
+android.photopicker.cts.cloudproviders.CloudProviderPrimary content://android.photopicker.cts.cloudproviders.cloud_primary [RW] com.android.providers.media.permission.MANAGE_CLOUD_MEDIA_PROVIDERS
+com.android.timezone.data.TimeZoneRulesDataProvider content://com.android.timezone [grant-uri-permission]
+com.android.providers.media.cloudproviders.CloudProviderPrimary content://com.android.providers.media.photopicker.tests.cloud_primary [RW] com.android.providers.media.permission.MANAGE_CLOUD_MEDIA_PROVIDERS
+com.android.externalstorage.TestDocumentsProvider content://com.example.documents [grant-uri-permission]
+com.android.documentsui.archives.ArchivesProvider content://com.android.documentsui.archives [grant-uri-permission]
+com.example.android.shareactionprovider.content.AssetProvider content://com.example.android.shareactionprovider [grant-uri-permission]
+com.android.providers.contactsContactsProvider2 content://contacts [W] android.permission.WRITE_CONTACTS
+com.android.cellbroadcastserviceCellBroadcastProvider content://cellbroadcasts [R] android.permission.READ_CELL_BROADCASTS
+com.android.emergency.EmergencyGestureContentProvider content://com.android.emergency.gesture [RW] android.permission.CALL_PRIVILEGED
+com.android.settings.homepage.contextualcards.SettingsContextualCardProvider content://com.android.settings.homepage.contextualcards [RW] android.permission.WRITE_SETTINGS_HOMEPAGE_DATA
+com.android.angle.common.SearchProvider content://com.android.angle [grant-uri-permission]
+com.android.permissioncontroller.role.service.RoleSearchIndexablesProvider content://com.android.permissioncontroller.role [grant-uri-permission]
+com.android.providers.calendarCalendarProvider2 content://com.android.calendar [W] android.permission.WRITE_CALENDAR
+com.android.documentsui.archives.ResourcesProvider content://com.android.documentsui.archives.resourcesprovider [RW] android.permission.MANAGE_DOCUMENTS
+com.android.gallery3d.filtershow.provider.SharedImageProvider content://com.android.gallery3d.filtershow.provider.SharedImageProvider [W] com.android.gallery3d.filtershow.permission.WRITE
+com.android.cts.permissiondeclareappPermissionContentProvider content://ctspermissionwithsignature [W] com.android.cts.permissionWithSignature
+com.android.providers.downloads.DownloadStorageProvider content://com.android.providers.downloads.documents [RW] android.permission.MANAGE_DOCUMENTS
+com.android.cts.contactdirectoryprovider.DirectoryProvider content://com.android.cts.contact.directory.provider [R] android.permission.READ_CONTACTS
+com.android.providers.downloads.DownloadStorageProvider content://com.android.providers.downloads.documents [grant-uri-permission]
+com.android.traceur.SearchProvider content://com.android.traceur [grant-uri-permission]
+com.android.quickstep.LauncherSearchIndexablesProvider content://com.android.launcher3 [grant-uri-permission]
+com.android.cellbroadcastreceiver.CellBroadcastContentProvider content://cellbroadcasts-app [R] android.permission.READ_CELL_BROADCASTS
+com.android.externalstorage.ExternalStorageProvider content://com.android.externalstorage.documents <pathPrefix:>  [RW] android.permission.WRITE_MEDIA_STORAGE
+com.android.cellbroadcastreceiver.CellBroadcastSearchIndexableProvider content://com.android.cellbroadcastreceiver [RW] android.permission.READ_SEARCH_INDEXABLES
+com.android.providers.telephonyMmsSmsProvider content://mms-sms [R] android.permission.READ_SMS
+com.android.providers.contactsContactsProvider2 content://contacts <pathPrefix:/search_suggest_shortcut>  [R] android.permission.GLOBAL_SEARCH
+com.android.mtp.MtpDocumentsProvider content://com.android.mtp.documents [RW] android.permission.MANAGE_DOCUMENTS
+com.android.mtp.MtpDocumentsProvider content://com.android.mtp.documents [grant-uri-permission]
+com.android.providers.downloads.DownloadProvider content://downloads <pathPrefix:/download>  [RW] android.permission.INTERNET
+com.android.systemui.people.PeopleProvider content://com.android.systemui.people.PeopleProvider [RW] android.permission.GET_PEOPLE_TILE_PREVIEW
+com.android.phoneServiceStateProvider content://service-state [W] android.permission.MODIFY_PHONE_STATE
+com.android.documentsui.BrokenSettingsEnabledProvider content://com.android.documentsui.brokensettingsenabled [grant-uri-permission]
+com.android.quickstep.LauncherSearchIndexablesProvider content://com.android.launcher3 [RW] android.permission.READ_SEARCH_INDEXABLES
+com.android.bluetooth.opp.BluetoothOppProvider content://com.android.bluetooth.opp <pathPrefix:/btopp>  [RW] android.permission.ACCESS_BLUETOOTH_SHARE
+com.example.android.shareactionprovider.content.AssetProvider content://com.example.android.shareactionprovider [RW] com.example.android.shareactionprovider.ASSET_ACCESS
+com.android.documentsui.BrokenProvider content://com.android.documentsui.broken [RW] android.permission.MANAGE_DOCUMENTS
+com.android.cts.permissiondeclareappPermissionContentProviderGranting content://ctspermissionwithsignaturegranting [W] com.android.cts.permissionWithSignature
+android.provider.cts.contacts.galprovider.CtsGalProvider content://android.provider.cts.contacts.gal [R] android.permission.BIND_DIRECTORY_SEARCH
+com.android.phoneIccProvider content://icc [W] android.permission.WRITE_CONTACTS
+com.android.traceur.StorageProvider content://com.android.traceur.documents [RW] android.permission.MANAGE_DOCUMENTS
+com.android.providers.contactsCallLogProvider content://call_log [W] android.permission.WRITE_CALL_LOG
+android.jobscheduler.cts.shareduid.jobperm.JobPermProvider content://android.jobscheduler.cts.shareduid.jobperm.provider <pathPrefix:/protected>  [W] android.jobscheduler.cts.jobperm.perm
+com.android.documentsui.InspectorProvider content://com.android.documentsui.inspectorprovider [grant-uri-permission]
+com.android.documentsui.BrokenSettingsEnabledProvider content://com.android.documentsui.brokensettingsenabled [RW] android.permission.MANAGE_DOCUMENTS
+com.android.cts.documentprovider.MyDocumentsProvider content://com.android.cts.documentprovider [grant-uri-permission]
+com.android.cts.documentprovider.MyDocumentsProvider content://com.android.cts.documentprovider [RW] android.permission.MANAGE_DOCUMENTS
+com.android.providers.downloads.DownloadProvider content://downloads <pathPrefix:/my_downloads>  [RW] android.permission.INTERNET
+com.android.providers.media.LegacyMediaProvider content://media_legacy [RW] android.permission.WRITE_MEDIA_STORAGE
+com.android.providers.telephonySmsProvider content://sms [R] android.permission.READ_SMS
+org.robolectric.shadows.testing.TestContentProvider1 content://org.robolectric.authority1 [W] WRITE_PERMISSION
+com.android.cts.permissiondeclareappPermissionContentProviderPath content://ctspermissionwithsignaturepath <pathPrefix:/foo>  [W] com.android.cts.permissionWithSignature
+com.android.providers.downloads.DownloadProvider content://downloads <pathPrefix:/all_downloads/> [grant-uri-permission]
+com.android.documentsui.archives.ResourcesProvider content://com.android.documentsui.archives.resourcesprovider [grant-uri-permission]
+com.android.cellbroadcastreceiverLegacyCellBroadcastContentProvider content://cellbroadcast-legacy [R] android.permission.READ_CELL_BROADCASTS
+com.android.providers.contactsContactsProvider2 content://com.android.contacts <pathPattern:.*> [grant-uri-permission]
+org.robolectric.shadows.testing.TestContentProvider1 content://org.robolectric.authority1 <pathPrefix:>  [W] PATH_WRITE_PERMISSION
+com.android.externalstorage.ExternalStorageProvider content://com.android.externalstorage.documents [grant-uri-permission]
+com.android.providers.telephonyMmsProvider content://mms <pathPrefix:/part/> [grant-uri-permission]
+com.android.phone.SimPhonebookProvider content://com.android.simphonebook [W] android.permission.WRITE_CONTACTS
+com.google.android.bluetooth.BluetoothLegacyMigration content://bluetooth_legacy.provider [RW] android.permission.BLUETOOTH_PRIVILEGED
+android.photopicker.cts.cloudproviders.CloudProviderNoIntentFilter content://android.photopicker.cts.cloudproviders.cloud_no_intent_filter [RW] com.android.providers.media.permission.MANAGE_CLOUD_MEDIA_PROVIDERS
+com.android.providers.media.MediaDocumentsProvider content://com.android.providers.media.documents [grant-uri-permission]
+com.android.emergency.EmergencySearchIndexablesProvider content://com.android.emergency [RW] android.permission.READ_SEARCH_INDEXABLES
+com.android.documentsui.PagingProvider content://com.android.documentsui.pagingprovider [grant-uri-permission]
+com.android.documentsui.PagingProvider content://com.android.documentsui.pagingprovider [RW] android.permission.MANAGE_DOCUMENTS
+com.android.gallery3d.filtershow.provider.SharedImageProvider content://com.android.gallery3d.filtershow.provider.SharedImageProvider [grant-uri-permission]
+com.android.providers.contactsContactsProvider2 content://contacts <pathPrefix:>  [R] android.permission.GLOBAL_SEARCH
+com.android.browser.provider.BrowserProvider2 content://com.android.browser [W] com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+com.android.permissioncontroller.role.service.RoleSearchIndexablesProvider content://com.android.permissioncontroller.role [RW] android.permission.READ_SEARCH_INDEXABLES
+com.android.providers.telephonyHbpcdLookupProvider content://hbpcd_lookup [W] android.permission.MODIFY_PHONE_STATE
+com.android.providers.contactsCallComposerLocationProvider content://call_composer_locations [W] android.permission.WRITE_CALL_LOG
+com.android.cts.permissiondeclareappPermissionContentProviderPath content://ctspermissionwithsignaturepath <pathPrefix:/yes>  [W] com.android.cts.permissionWithSignature
+com.android.settings.homepage.contextualcards.CardContentProvider content://com.android.settings.homepage.CardContentProvider [RW] android.permission.WRITE_SETTINGS_HOMEPAGE_DATA
+com.android.externalstorage.ExternalStorageProvider content://com.android.externalstorage.documents [RW] android.permission.MANAGE_DOCUMENTS
+com.android.dialer.preferredsim.impl.PreferredSimFallbackProvider content://com.android.dialer.preferredsimfallback [W] android.permission.WRITE_CONTACTS
+com.android.providers.contactsContactsProvider2 content://com.android.contacts [grant-uri-permission]
+com.android.providers.telephonyMmsProvider content://mms [R] android.permission.READ_SMS
+com.android.permissioncontroller.permission.service.PermissionSearchIndexablesProvider content://com.android.permissioncontroller [RW] android.permission.READ_SEARCH_INDEXABLES
+com.android.providers.contactsContactsProvider2 content://contacts <pathPattern:.*> [grant-uri-permission]
+com.android.gallery3d.provider.GalleryProvider content://com.android.gallery3d.provider [RW] com.android.gallery3d.permission.GALLERY_PROVIDER
+com.android.cts.permissiondeclareappPermissionContentProviderPathRestricting content://ctspermissionwithsignaturepathrestricting <pathPrefix:/foo/bar>  [W] com.android.cts.permissionNormal
+com.android.emergency.EmergencySearchIndexablesProvider content://com.android.emergency [grant-uri-permission]
+com.android.cts.permissiondeclareappPermissionContentProviderPath content://ctspermissionwithsignaturepath [W] com.android.cts.permissionNotUsedWithSignature
+com.android.providers.contactsContactsProvider2 content://contacts [grant-uri-permission]
+com.android.providers.telephonyMmsProvider content://mms <pathPrefix:/drm/> [grant-uri-permission]
+com.android.timezone.data.TimeZoneRulesDataProvider content://com.android.timezone [R] android.permission.UPDATE_TIME_ZONE_RULES
+com.android.providers.contactsContactsProvider2 content://com.android.contacts [W] android.permission.WRITE_CONTACTS
+com.android.gallery3d.provider.GalleryProvider content://com.android.gallery3d.provider [grant-uri-permission]
+com.android.angle.common.SearchProvider content://com.android.angle [RW] android.permission.READ_SEARCH_INDEXABLES
+com.example.android.storageprovider.MyCloudProvider content://com.example.android.storageprovider.documents [grant-uri-permission]
+com.android.documentsui.StubProvider content://com.android.documentsui.stubprovider [RW] android.permission.MANAGE_DOCUMENTS
+com.android.shell.BugreportStorageProvider content://com.android.shell.documents [RW] android.permission.MANAGE_DOCUMENTS
+com.android.providers.contactsContactsProvider2 content://com.android.contacts <pathPrefix:>  [R] android.permission.GLOBAL_SEARCH
+com.android.cts.intent.sender.BasicContentProvider content://com.android.cts.intent.sender.provider [RW] com.android.cts.intent.sender.permission.SAMPLE
+com.android.documentsui.InspectorProvider content://com.android.documentsui.inspectorprovider [RW] android.permission.MANAGE_DOCUMENTS
+com.android.systemui.keyguard.CustomizationProvider content://com.android.systemui.customization [RW] android.permission.CUSTOMIZE_SYSTEM_UI
+com.android.providers.media.cloudproviders.CloudProviderSecondary content://com.android.providers.media.photopicker.tests.cloud_secondary [R] com.android.providers.media.permission.MANAGE_CLOUD_MEDIA_PROVIDERS
+com.android.externalstorage.TestDocumentsProvider content://com.example.documents [RW] android.permission.MANAGE_DOCUMENTS
+com.android.providers.contactsContactsProvider2 content://com.android.contacts <pathPrefix:/search_suggest_query>  [R] android.permission.GLOBAL_SEARCH
