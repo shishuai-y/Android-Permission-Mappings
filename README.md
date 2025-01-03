@@ -1,7 +1,7 @@
 # Android-Permission-Mappings
 This repository contains permission mappings for Android API levels 16-33, primarily divided into three parts: SDK mappings, ContentProvider mappings, and Intent mappings. 
 
-For more details, please refer to the following paper. Also please cite this paper if you use this permission mappings:
+For more details, please refer to the following paper. Also, please cite this paper if you use these permission mappings:
 ```
 @inproceedings{DBLP:conf/issre/YangBLGD24,
   author       = {Shishuai Yang and
@@ -11,7 +11,7 @@ For more details, please refer to the following paper. Also please cite this pap
                   Wenrui Diao},
   title        = {Beyond the Horizon: Exploring Cross-Market Security Discrepancies
                   in Parallel Android Apps},
-  booktitle    = {35th {IEEE} International Symposium on Software Reliability Engineering,
+  booktitle    = {Proceedings of the 35th {IEEE} International Symposium on Software Reliability Engineering,
                   {ISSRE} 2024, Tsukuba, Japan, October 28-31, 2024},
   pages        = {558--569},
   publisher    = {{IEEE}},
